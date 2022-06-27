@@ -1,0 +1,12 @@
+name: SpawnPlugin
+version: '${project.version}'
+main: me.leos.spawnplugin.SpawnPlugin
+api-version: 1.19
+commands:
+  setspawn:
+    description: Sets spawn for player.
+  spawn:
+    description: Teleports you to spawn.
+  delspawn:
+    description: Deletes current set spawn.
+
